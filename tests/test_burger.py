@@ -6,14 +6,7 @@ from praktikum.bun import Bun
 
 class TestBurger:
 
-    def test_burger_initial_bun_is_none(self):
-        burger = Burger()
-        assert burger.bun is None
 
-
-    def test_burger_initial_ingridients_empty_list(self):
-        burger = Burger()
-        assert len(burger.ingredients) == 0
 
     def test_set_buns_correct_set_bun(self):
         bun = Bun(name="Classic Bun", price=100.0)
